@@ -1,0 +1,7 @@
+function number(){
+    let nombre = document.getElementsByName('nombre')[0].value;
+    if (confirm("Hola" ", "+ nombre de usuario + "?")){
+       document.submit();
+    }
+}
+
